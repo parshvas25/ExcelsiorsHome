@@ -10,44 +10,78 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/css/livestream.css">
+    <link rel="stylesheet" href="/css/livestream.css" />
     <title>Brampton Excelsiors</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#"></a>
-      <img src="/images/bexcelsiors-logo.png" />
+      <img src="/images/bexcelsiors-logo.png" width="100px" height="100px" />
       <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="/index.html">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Watch Live!</a>
-            <a class="nav-item nav-link" href="#">Videos On Demand</a>
-            <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Game Stats
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">View Scores</a>
-                      <a class="dropdown-item" href="#">Player Stats</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Code of Conduct</a>
-                    </div>
-                  </li>
+        <a class="nav-item nav-link active" href="#"
+          >Home <span class="sr-only">(current)</span></a
+        >
+        <a class="nav-item nav-link" href="livestream/livestream.html"
+          >Watch Live!</a
+        >
+        <a class="nav-item nav-link" href="#">Videos On Demand</a>
+        <a class="nav-item nav-link" href="#">Schedule</a>
+        <a class="nav-item nav-link" href="#">Videos On Demand</a>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Game Stats
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">View Scores</a>
+            <a class="dropdown-item" href="#">Player Stats</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Code of Conduct</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            More Info
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">History</a>
+            <a class="dropdown-item" href="#">Volunteering Oppurtunities</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Contact Us</a>
+          </div>
+        </li>
+      </div>
     </nav>
-    <div id = "container">
-        <div id = "livestream">
-            <iframe 
-            src="https://video.ibm.com/embed/23702959"
-            webkitallowfullscreen
-            allowfullscreen
-            frameborder="no"
-            width="480"
-            height="270"
-          ></iframe>
-          </div>
-          <div id = "stream-info">
-          <h4>Current Stream: Team 1 vs Team 2</h4>
-          </div>
-          </div>
+    <div id="container">
+      <div id="livestream">
+        <iframe
+          src="https://video.ibm.com/embed/23702959"
+          webkitallowfullscreen
+          allowfullscreen
+          frameborder="no"
+          width="480"
+          height="270"
+        ></iframe>
+      </div>
+      <div id="stream-info">
+        <h4>Current Stream: Team 1 vs Team 2</h4>
+      </div>
+    </div>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

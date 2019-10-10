@@ -7,7 +7,7 @@
   border: 1px solid orange;
 }
 .nav-item {
-  font-size: 25px;
+  font-size: 15px;
 }
 
 iframe {
@@ -21,4 +21,10 @@ iframe {
 #stream-info {
   text-align: center;
   margin-top: 15px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  line-height: 26.4px;
 }

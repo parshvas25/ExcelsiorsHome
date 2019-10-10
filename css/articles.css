@@ -29,11 +29,6 @@ h1 {
   text-align: center;
 }
 
-.carousel {
-  height: 700px;
-  width: 700px;
-}
-
 .item-list {
   border: 8px solid red;
   box-shadow: 0px 0px 0px 10px #888888;
@@ -49,9 +44,28 @@ h1 {
 }
 
 .largerimage img {
-  max-height: 375px;
+  max-height: 680px;
 }
 
-body {
-  background-image: url('//users.neo.registeredsite.com/2/0/4/21789402/assets/New-Background-Image12529.png');
+.article-info {
+  margin-top: -50px;
+}
+
+.article-header {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h5 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.article-tt {
+  font-size: 25px;
 }
