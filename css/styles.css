@@ -52,6 +52,17 @@ h1 {
   max-height: 375px;
 }
 
-body {
-  background-image: url('//users.neo.registeredsite.com/2/0/4/21789402/assets/New-Background-Image12529.png');
+.navbar-default {
+  background-image: -webkit-linear-gradient(top, #ffffff 0%, #dfdfdf 100%);
+  background-image: linear-gradient(to bottom, #ffffff 0%, #dfdfdf 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffdfdfdf', GradientType=0);
+}
+#logo {
+  margin-right: 15px;
+  height: 70px;
+  width: 70px;
+}
+.navbars {
+  padding-bottom: 45px;
 }
