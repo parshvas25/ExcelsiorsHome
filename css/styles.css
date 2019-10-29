@@ -62,11 +62,24 @@ body {
   align-items: center;
 }
 .carousel {
-  max-width: 500px;
-  max-height: 100px;
-  margin-left: 40%;
-  margin-right: 40%;
+  max-width: 800px;
+  max-height: 450px;
+  align-self: center;
+  margin-left: 2%;
 }
 .card {
   margin-top: 10px;
+}
+
+.navbar-banner {
+  padding-bottom: 100px;
+}
+
+.Sponsors {
+  text-align: center;
+  color: white;
+}
+.block-sponsors {
+  background-color: black;
+  height: 600px;
 }
